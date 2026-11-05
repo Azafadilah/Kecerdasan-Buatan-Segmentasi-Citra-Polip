@@ -78,8 +78,7 @@ Contoh augmentasi yang dicoba:
 <!-- Hijau = benar, merah = false positive, biru = false negative.
      Pertanyaan pemandu: Polip seperti apa yang sering terlewat (kecil? datar? warna mirip dinding usus?)
      Apa yang sering dikira polip padahal bukan? Apakah augmentasi memperbaiki kasus sulit? -->
-
-https://colab.research.google.com/drive/1MLGlXVLll_pw2kg1nJGMdbspriJ0bM0a#scrollTo=0b460587&fullscreenOutput=true
+https://colab.research.google.com/drive/1w1V2An1FVl76gLMSBKYOQXX3Zs7agU-a#scrollTo=0b460587&fullscreenOutput=true
 
 ## 6. Pembahasan & kesimpulan
 
