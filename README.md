@@ -92,7 +92,6 @@ Hasil akhir dari ketiga skenario kemudian dibandingkan berdasarkan nilai Dice da
 ## 7. Pembagian kerja
 
 <!-- Siapa mengerjakan apa. Penilaian proses kerja dilihat dari riwayat commit tiap anggota. -->
-## 7. Pembagian Kerja
 
 | Nama | NIM | Username GitHub | Kontribusi utama |
 |---|---|---|---|
