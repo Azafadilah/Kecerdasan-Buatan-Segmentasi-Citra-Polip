@@ -17,9 +17,9 @@
 
 | Nama | NIM | Username GitHub | Kontribusi utama |
 |---|---|---|---|
-| Azaria Fadilah | 123430065 | Azafadilah | ✍️ misal: menjalankan eksperimen, menulis Bagian 3 |
-| Jihan Nailah Efrani | 123430005 | jihannaila03-png | ✍️ |
-| Nur Fathiah| 123430021 | fathiahutriani-spec | ✍️ |
+| Azaria Fadilah | 123430065 | Azafadilah | Menyiapkan lingkungan eksperimen, menjalankan model U-Net, serta melakukan pengujian dan pengumpulan hasil eksperimen. |
+| Jihan Nailah Efrani | 123430005 | jihannaila03-png | Merancang skenario augmentasi citra, menentukan hipotesis, serta menganalisis pengaruh augmentasi dan mengerjakan README. |
+| Nur Fathiah| 123430021 | fathiahutriani-spec | Melakukan analisis hasil segmentasi, mengevaluasi peta kesalahan (false positive dan false negative), serta menyusun README. |
 
 ## 1. Pertanyaan
 
