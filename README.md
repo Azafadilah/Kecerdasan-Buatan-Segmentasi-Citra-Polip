@@ -126,4 +126,4 @@ Atau buka notebook di Google Colab (Runtime → Change runtime type → T4 GPU).
 - Jha, D., dkk. (2020). Kvasir-SEG: A Segmented Polyp Dataset. *MultiMedia Modeling (MMM 2020)*, 451–462.
 - Ronneberger, O., Fischer, P., & Brox, T. (2015). U-Net: Convolutional Networks for Biomedical Image Segmentation. *MICCAI*. arXiv:1505.04597.
 - M. F. Ahamed et al., “Automated colorectal polyps detection from endoscopic images using MultiResUNet framework with attention guided segmentation,” Human-Centric Intelligent Systems, vol. 4, pp. 299–315, 2024, doi: 10.1007/s44230-024-00067-1.
-- 
+- Eelbode, T., Bertels, J., Berman, M., Vandermeulen, D., Maes, F., Bisschops, R., & Blaschko, M. B. (2020). Optimization for Medical Image Segmentation: Theory and Practice When Evaluating With Dice Score or Jaccard Index. *IEEE Transactions on Medical Imaging*, 39(11), 3679–3690. https://doi.org/10.1109/TMI.2020.3002417.
