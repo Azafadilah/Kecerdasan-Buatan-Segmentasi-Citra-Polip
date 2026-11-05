@@ -56,11 +56,15 @@ Contoh augmentasi yang dicoba:
 
 <!-- Tempel isi hasil/ringkasan.md di sini. -->
 
-| Skenario | Dice (rata-rata ± sb) | IoU (rata-rata ± sb) | Dice tiap ulangan |
-|---|---|---|---|
-| Tanpa augmentasi | 0.608 ± 0.021 | 0.489 ± 0.026 | 0.591, 0.637, 0.596 |
-| Flip | 0.625 ± 0.047 | 0.512 ± 0.052 | 0.609, 0.689, 0.578 |
-| Kecerahan & kontras | 0.573 ± 0.038 | 0.464 ± 0.034 | 0.521, 0.607, 0.591 |
+Ulangan 1/3 | Tanpa augmentasi          | Dice = 0.591 | IoU = 0.471 | 32 detik
+Ulangan 1/3 | Flip                      | Dice = 0.609 | IoU = 0.506 | 22 detik
+Ulangan 1/3 | Kecerahan & kontras       | Dice = 0.521 | IoU = 0.417 | 22 detik
+Ulangan 2/3 | Tanpa augmentasi          | Dice = 0.637 | IoU = 0.525 | 32 detik
+Ulangan 2/3 | Flip                      | Dice = 0.689 | IoU = 0.578 | 22 detik
+Ulangan 2/3 | Kecerahan & kontras       | Dice = 0.607 | IoU = 0.495 | 22 detik
+Ulangan 3/3 | Tanpa augmentasi          | Dice = 0.596 | IoU = 0.470 | 32 detik
+Ulangan 3/3 | Flip                      | Dice = 0.578 | IoU = 0.451 | 22 detik
+Ulangan 3/3 | Kecerahan & kontras       | Dice = 0.591 | IoU = 0.481 | 22 detik
 
 ![Perbandingan Dice](hasil/perbandingan.png)
  https://colab.research.google.com/drive/1MLGlXVLll_pw2kg1nJGMdbspriJ0bM0a#scrollTo=14dd4f45&fullscreenOutput=true
