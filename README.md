@@ -31,7 +31,7 @@ Augmentasi apa yang membantu U-Net menemukan polip pada citra kolonoskopi, dan a
 
 - Dataset: Kvasir-SEG (1000 citra kolonoskopi + mask polip), diperkecil ke 128 × 128 piksel.
 - Data uji: 200 citra (tetap). Data latih: 200 citra per ulangan.
-- Model: U-Net mini (±0,5 juta parameter), 10 epoch, 3 ulangan per skenario.
+- Model: U-Net mini (±0,5 juta parameter), 40 epoch, 3 ulangan per skenario.
 - Dijalankan di: Google Colab T4.
 
 ![Contoh data](hasil/contoh_data.png)
