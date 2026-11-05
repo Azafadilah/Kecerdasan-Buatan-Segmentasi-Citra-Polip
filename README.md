@@ -109,7 +109,8 @@ Dengan demikian, hipotesis bahwa augmentasi Flip dapat meningkatkan performa seg
      Contoh: "Claude Code (CLI) untuk menulis skenario augmentasi dan memperbaiki error di Bagian 4.
      Draf Bagian 6 ditulis sendiri, lalu dirapikan bahasanya dengan bantuan AI." -->
 
-✍️
+Kami menggunakan ChatGPT untuk membantu memahami alur notebook serta
+memberikan panduan penggunaan Git/GitHub. Kami juga menggunakan Gemini untuk membantu menfiksasi error saat menjalankan Bagian 4 notebook.
 
 ## Cara menjalankan ulang
 
