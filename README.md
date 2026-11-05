@@ -85,9 +85,11 @@ https://colab.research.google.com/drive/1w1V2An1FVl76gLMSBKYOQXX3Zs7agU-a#scroll
 <!-- Bandingkan hasil dengan hipotesis di Bagian 3. Hipotesis yang ternyata salah tetap bernilai,
      asalkan dijelaskan kenapa. Perbedaan kecil (lebih kecil dari simpangan baku) belum tentu berarti. -->
 
-Penggunaan 40 epoch bertujuan memberikan kesempatan kepada model U-Net untuk mempelajari pola dan karakteristik polip secara lebih optimal. Peningkatan jumlah epoch diharapkan dapat membantu model menghasilkan segmentasi yang lebih baik dibandingkan pengujian sebelumnya. Pada skenario augmentasi Flip, transformasi horizontal dan vertikal digunakan untuk memperkaya variasi orientasi citra kolonoskopi. Teknik ini diharapkan membantu model mengenali polip meskipun mengalami perubahan orientasi. Pada skenario Kecerahan dan Kontras, parameter augmentasi diturunkan menjadi 0,1 untuk mengurangi perubahan intensitas visual yang terlalu besar. Pengaturan tersebut bertujuan mempertahankan karakteristik warna dan tekstur polip sekaligus memberikan variasi pencahayaan pada data pelatihan.
+Berdasarkan hasil pengujian, augmentasi Flip menghasilkan nilai Dice tertinggi sebesar 0,625 ± 0,047 dan IoU sebesar 0,512 ± 0,052 dibandingkan tanpa augmentasi maupun augmentasi kecerahan dan kontras. Hal ini menunjukkan bahwa augmentasi Flip membantu model U-Net mengenali polip dengan variasi orientasi citra kolonoskopi.
 
-Hasil akhir dari ketiga skenario kemudian dibandingkan berdasarkan nilai Dice dan IoU. Skenario dengan nilai Dice dan IoU lebih tinggi menunjukkan kesesuaian hasil segmentasi yang lebih baik terhadap anotasi dokter. Selain nilai rata-rata, simpangan baku juga diperhatikan untuk mengetahui konsistensi hasil pengulangan eksperimen. Melalui pengujian ini, dapat diketahui apakah peningkatan jumlah epoch dan penyesuaian parameter augmentasi mampu memperbaiki performa segmentasi polip pada citra kolonoskopi.
+Sementara itu, augmentasi kecerahan dan kontras menghasilkan nilai Dice sebesar 0,573 ± 0,038 dan IoU sebesar 0,464 ± 0,034. Hasil tersebut lebih rendah dibandingkan tanpa augmentasi yang memperoleh Dice 0,608 ± 0,021 dan IoU 0,489 ± 0,026. Hal ini menunjukkan bahwa perubahan intensitas pencahayaan dan kontras pada pengaturan yang digunakan belum tentu meningkatkan kemampuan segmentasi model.
+
+Dengan demikian, hipotesis bahwa augmentasi Flip dapat meningkatkan performa segmentasi didukung oleh hasil pengujian, sedangkan augmentasi kecerahan dan kontras belum menunjukkan peningkatan. Namun, karena perbedaan nilai Dice Flip dan tanpa augmentasi (0,017) lebih kecil daripada simpangan baku masing-masing, peningkatan tersebut belum dapat dinyatakan signifikan secara statistik.
 
 ## 7. Pembagian kerja
 
