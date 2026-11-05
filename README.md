@@ -63,7 +63,7 @@ Contoh augmentasi yang dicoba:
 | Kecerahan & kontras | 0.378 ± 0.045 | 0.273 ± 0.036 | 0.364, 0.331, 0.438 |
 
 ![Perbandingan Dice](hasil/perbandingan.png)
- 
+ https://colab.research.google.com/drive/1MLGlXVLll_pw2kg1nJGMdbspriJ0bM0a#scrollTo=14dd4f45&fullscreenOutput=true
 
 ## 5. Analisis peta kesalahan
 
