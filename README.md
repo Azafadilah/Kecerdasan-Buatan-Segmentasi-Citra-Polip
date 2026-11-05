@@ -72,7 +72,9 @@ Contoh augmentasi yang dicoba:
 https://colab.research.google.com/drive/1w1V2An1FVl76gLMSBKYOQXX3Zs7agU-a#scrollTo=14dd4f45&fullscreenOutput=true
 
 ## 5. Analisis peta kesalahan
+Berdasarkan visualisasi peta kesalahan segmentasi, terlihat bahwa performa model U-Net berbeda pada setiap skenario augmentasi. Pada skenario tanpa augmentasi, terdapat citra dengan nilai Dice 0,00 karena hasil prediksi belum mampu mendeteksi area polip yang sesuai dengan anotasi dokter. Namun, pada citra lainnya model mampu menghasilkan segmentasi yang cukup baik dengan nilai Dice 0,96 dan 0,97. Pada skenario Flip, hasil segmentasi terlihat lebih mendekati anotasi dokter, seperti pada citra pertama dengan Dice 0,79 dan citra keempat dengan Dice 0,98. Hal ini menunjukkan bahwa augmentasi Flip membantu model mengenali polip pada variasi orientasi citra.
 
+Sementara itu, skenario kecerahan dan kontras menunjukkan hasil yang bervariasi. Beberapa citra memiliki nilai Dice 0,00 dan 0,28, yang menunjukkan bahwa model belum mampu melakukan segmentasi secara optimal. Namun, pada citra keempat diperoleh Dice 0,96 dengan hasil segmentasi yang cukup mendekati anotasi dokter. Secara keseluruhan, peta kesalahan menunjukkan bahwa augmentasi Flip memberikan hasil segmentasi yang relatif lebih baik pada beberapa citra. Kesalahan segmentasi masih ditemukan berupa ketidaksesuaian batas polip dan kegagalan mendeteksi area polip secara keseluruhan. Hal ini menunjukkan bahwa kemampuan model U-Net masih dipengaruhi oleh bentuk, ukuran, dan karakteristik visual polip pada citra kolonoskopi.
 ![Peta kesalahan](hasil/peta_kesalahan.png)
 
 <!-- Hijau = benar, merah = false positive, biru = false negative.
