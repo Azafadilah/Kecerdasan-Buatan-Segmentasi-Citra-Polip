@@ -92,8 +92,13 @@ Hasil akhir dari ketiga skenario kemudian dibandingkan berdasarkan nilai Dice da
 ## 7. Pembagian kerja
 
 <!-- Siapa mengerjakan apa. Penilaian proses kerja dilihat dari riwayat commit tiap anggota. -->
+## 7. Pembagian Kerja
 
-✍️
+| Nama | NIM | Username GitHub | Kontribusi utama |
+|---|---|---|---|
+| Azaria Fadilah | 123430065 | Azafadilah | Menyiapkan lingkungan eksperimen, menjalankan model U-Net, melakukan pengujian, dan mengumpulkan hasil eksperimen. |
+| Jihan Nailah Efrani | 123430005 | jihannaila03-png | Merancang skenario augmentasi citra, menentukan hipotesis, menganalisis pengaruh augmentasi, dan mengerjakan README. |
+| Nur Fathiah | 123430021 | fathiahutriani-spec | Menganalisis hasil segmentasi, mengevaluasi peta kesalahan (false positive dan false negative), serta menyusun README. |
 
 ## 8. Penggunaan AI
 
