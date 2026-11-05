@@ -17,9 +17,9 @@
 
 | Nama | NIM | Username GitHub | Kontribusi utama |
 |---|---|---|---|
-| ✍️ | ✍️ | ✍️ | ✍️ misal: menjalankan eksperimen, menulis Bagian 3 |
-| ✍️ | ✍️ | ✍️ | ✍️ |
-| ✍️ | ✍️ | ✍️ | ✍️ |
+| Azaria Fadilah | 123430065 | Azafadilah | ✍️ misal: menjalankan eksperimen, menulis Bagian 3 |
+| Jihan Nailah Efrani | 123430005 | jihannaila03-png | ✍️ |
+| Nur Fathiah| 123430021 | fathiahutriani-spec | ✍️ |
 
 ## 1. Pertanyaan
 
