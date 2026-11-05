@@ -19,7 +19,7 @@
 |---|---|---|---|
 | Azaria Fadilah | 123430065 | Azafadilah | Menyiapkan lingkungan eksperimen, menjalankan model U-Net, serta melakukan pengujian dan pengumpulan hasil eksperimen. |
 | Jihan Nailah Efrani | 123430005 | jihannaila03-png | Merancang skenario augmentasi citra, menentukan hipotesis, serta menganalisis pengaruh augmentasi dan mengerjakan README. |
-| Nur Fathiah| 123430021 | fathiahutriani-spec | Melakukan analisis hasil segmentasi, mengevaluasi peta kesalahan (false positive dan false negative), serta menyusun README. |
+| Nur Fathiah Hutriani| 123430021 | fathiahutriani-spec | Melakukan analisis hasil segmentasi, mengevaluasi peta kesalahan (false positive dan false negative), serta menyusun README. |
 
 ## 1. Pertanyaan
 
@@ -97,7 +97,7 @@ Hasil akhir dari ketiga skenario kemudian dibandingkan berdasarkan nilai Dice da
 |---|---|---|---|
 | Azaria Fadilah | 123430065 | Azafadilah | Menyiapkan lingkungan eksperimen, menjalankan model U-Net, melakukan pengujian, dan mengumpulkan hasil eksperimen. |
 | Jihan Nailah Efrani | 123430005 | jihannaila03-png | Merancang skenario augmentasi citra, menentukan hipotesis, menganalisis pengaruh augmentasi, dan mengerjakan README. |
-| Nur Fathiah | 123430021 | fathiahutriani-spec | Menganalisis hasil segmentasi, mengevaluasi peta kesalahan (false positive dan false negative), serta menyusun README. |
+| Nur Fathiah Hutriani | 123430021 | fathiahutriani-spec | Menganalisis hasil segmentasi, mengevaluasi peta kesalahan (false positive dan false negative), serta menyusun README. |
 
 ## 8. Penggunaan AI
 
